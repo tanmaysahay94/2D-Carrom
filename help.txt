@@ -1,0 +1,35 @@
+Carrom
+
+Coins - 1 striker
+        10 white coins
+		10 black coins
+		1 queen
+Number of players - 2
+
+Rules of the game:
+1. Player 1 makes the first move. This player has to pot white coins.
+2. Player 2 makes his first move when Player 1's turn ends. This player has to pot black coins.
+3. A player's turn ends when he pots the striker or (does not pot the coin of the colour assigned to him and is unable to pot the queen).
+4. On potting a coin of the assigned colour, the player who pots receives 10 points. If he pots a coin of the other colour, he loses 5 points.
+5. On potting the queen, the player receives 50 points. He does not have to pot the coin of the colour assigned to him to retain the queen. He must simply pocket the queen.
+6. With every passing second during a player's move, that player loses 1 point.
+7. The game ends when no coins (not necessarily striker) remain on the board.
+8. The winner of the game is the player with greater points. If they have the same number of points, the game ends in a tie.
+9. A move is defined as a player using the striker to hit other coins on the board.
+10. Pocketing is defined as a coin falling into a pocket during a move.
+
+How to play:
+1. Keyboard Control
+	a. Use the left and right arrow keys to move the striker on the striker rail.
+	b. Use the 'a' and 'c' keys to set the direction in which the striker moves.
+	c. Use the up and down arrow keys to set the power with which the striker is hit.
+2. Mouse Control
+	a. With the mouse on the striker, hold down the right button and move the mouse (while holding the right button down) to move the striker on the striker rail.
+	b. After setting the position, move the mouse to any point on the board and hit the left button. This determines the direction and power with which the striker moves.
+	   Farther the mouse from the striker, greater the force with which it is struck.
+
+Features:
+1. Striker becomes orange if it can't be struck. This happens when it overlaps with another coin on the striker rail.
+2. 2-player
+3. Score of the player whose turn it is currently dynamically changes.
+4. Turn change is dependent on the coins potted in the current move and the coins that remain on the board. It DOES NOT change regardless of the outcome of the move and state of the board.
